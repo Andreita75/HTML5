@@ -1,0 +1,147 @@
+body {
+    background-color: #e1e1eb;
+    border-width: 3px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(59, 89, 152);
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 13px;
+    margin: 10px;
+    text-align:left;
+    border-width: 4px;
+    border-color: black;
+}
+.facebook{
+    position: absolute;
+    left: 40px;
+}
+.hoja_de_vida{
+    position: relative;
+    left: 150px;
+}
+nav {
+    background-color:rgb(59, 89, 152);
+    display: flex;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: style type none;;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.todoPersonal{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.infoPersonal {
+    position: absolute;
+    left: 550px;
+}
+.foto {
+    position: relative;
+    left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fotoMia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+
+}
+.contactoo {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: style type none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(59, 89, 152);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.videos{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.eduHabilidades {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.exp {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.galeriaFotos {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+}
+.galeriaFotos figure img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+    
+

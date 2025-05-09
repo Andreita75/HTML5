@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscrición de Familiares</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="face.png"width="90"height="90" class="facebook">
+        <h1 class="hoja_de_vida">Formulario inscripcion</h1>
+    </header>
+    <nav>
+        <a href="HV_mama.html" target="_blank"> Hoja de vida de la madre</a>
+        <a href="HV.papa.html" target="_blank"> Hoja de vida de el Padre</a>
+        <a href="index.html" target="_blank"> Hoja de vida de Andrea Gutierrez</a>
+        <input type="search" placeholder="Buscar">
+    </nav>
+    <section>
+        <h2>Inscriba aquí a los Familiares</h2>
+    </section>
+
+    <form method="post">
+            <section>
+            <label for="Nombre"> Nombre:</label>
+            <input type="text" id="Nombre" name="nombre" required><br><br>
+            
+            <label for="Segundonombre"> Segundo nombre:</label>
+            <input type="text" id="Segundonombre" name="Segundonombre"><br><br>
+
+            <label for="Apellido"> Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" required><br><br>
+            </section>
+
+            <section>
+                <label for="Edad"> Edad:</label>
+                <input type="number" id="Edad" name="Edad" min="1" max="100" required><br><br>
+
+                <label for="Fechadenacimiemto"> Fecha de nacimiento:</label>
+                <input type="date" id="Fechadenacimiemto" name="Fechadenacimiemto" required><br><br>
+            </section>
+            
+            <section>
+                <label for="Telefono"> Telefono:</label>
+                <input type="Telefono" id="Telefono" name="Telefono" pattern="[0-9]{10}" title="Digite numero telefono de 10 digitos"><br><br>
+    
+                <label for="Correo"> Correo:</label>
+                <input type="email" id="Correo" name="Correo"><br><br>
+            </section>
+
+            <section>
+                <label for="Foto"> Foto:</label>
+                <input type="file" id="Foto" name="Foto" accept="Image/*"><br><br>
+
+                <label for="Sexo"> Sexo:</label><br>
+                <input type="radio" id="Mujer" name="Sexo">
+                <label for="Mujer"> Mujuer</label><br>
+                <input type="radio" id="Hombre" name="Sexo">
+                <label for="Hombre"> Hombre</label><br>
+                <input type="radio" id="Otro" name="Sexo">
+                <label for="Otro"> Otro</label><br><br>
+            </section>
+
+            <section>
+                <label for="Relación"> Relación con usted:</label>
+            <select id="Relación" name="Relación" required>
+                <option value="Padre"> Padre</option>
+                <option value="Madre"> Madre</option>
+                <option value="Hermano"> Hermano</option>
+                <option value="Hermana"> Hermana</option>
+                <option value="Primo"> Primo</option>
+            </select><br><br>
+
+            <label for="Intereses"> Intereses:</label>
+            <select id="Intereses" name="Intereses" multiple size="2">
+                <option value="Nada"> Nada</option>
+                <option value="Arte"> Arte</option>
+                <option value="Musica"> Musica</option>
+                <option value="Ejercicio"> Ejercicio</option>
+                <option value="Ver series"> Ver series</option>
+            </select><br><br>
+            </section>
+            <footer>
+                <input type="submit" value="Registrar">
+            </footer>
+            
+
+        </form>
+</body>
+</html>
